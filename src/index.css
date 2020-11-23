@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.vente {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.vente img {
+  max-width: 21rem;
+  max-height: 31rem;
+}
+
+.achat {
+  max-width: 21rem;
+}
+
+.cover-img {
+  background-image: url(https://www.bvpronet.be/wp-content/uploads/2017/09/vide-maison.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.cover-img div {
+  font-size: xx-large;
+  font-weight: bold;
+  padding-top: 2%;
+  padding-left: 45%;
+}
+
+.cover-img div:hover {
+  color: rgb(160, 138, 14);
+}
+
+.re-size {
+  padding: 1%;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-bottom: 3%;
+}
